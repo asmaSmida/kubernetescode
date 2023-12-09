@@ -16,6 +16,8 @@ node {
   
 
         app.inside {
+          
+            sh 'python app.py'
             sh 'echo "Tests passed"'
         }
     }
